@@ -1,0 +1,96 @@
+/*
+ * Custom css to reset some bootstrap default style
+ * #5cb85c #3c763d
+ */
+
+body {
+    background-color: #ffffff;
+    font-family: roboto-Regular, Arial, sans-serif;
+    font-size: 1.4em;
+}
+
+a {
+	 color: #3c763d;
+}
+a:hover,
+a:focus,
+a.active {
+    color: #5cb85c;
+}
+
+h1 { font-size: 30px }
+h2 { font-size: 24px }
+h3 { font-size: 18px }
+h4 { font-size: 16px }
+h5 { font-size: 14px }
+h6 { font-size: 12px }
+
+h1.page-header {
+	border-color: #e7e7e7;
+}
+
+.clear-both {
+	clear: both;
+}
+.float-left {
+	float: left !important;
+}
+.float-right {
+	float: right !important;
+}
+
+.image-brand {
+	position: relative;
+	margin-top: -6px;
+	margin-right: 6px;
+}
+
+.huge {
+	font-size: 1.8em;
+}
+
+.navbar {
+	min-height: 20px;
+}
+.panel-default {
+    border: none;
+    border-radius: 3px;
+}
+.panel-default .panel-heading {
+    background-color: #ffffff;
+    border-color: #ededed;
+    border-radius: 3px 3px 0 0;
+}
+.panel-default .panel-footer {
+    background-color: #ffffff;
+    border-color: #ededed;
+    border-radius: 0 0 3px 3px;
+}
+
+.sidebar ul li a.active {
+    color: #ffffff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+
+.table thead tr th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#page-wrapper {
+	background-color: #f1f4f7;
+	margin-bottom: 30px;
+}
+#side-menu {
+	margin-bottom: 40px;
+}
+
+@media(max-width: 767px) {
+	#page-wrapper {
+		margin-bottom: 60px;
+	}
+	.huge {
+		font-size: 1.5em;
+	}
+}

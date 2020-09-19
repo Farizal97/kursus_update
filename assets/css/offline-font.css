@@ -1,0 +1,39 @@
+/*
+ * Custom CSS: set up internal font
+ * --------------------------------------------------
+ * filename: offline-font.css;
+ * location: ./dist/css/offline-font.css;
+ * font files location: ./libs/font/;
+ */
+
+/* ROBOTO -----*/
+@font-face {
+    font-family: 'roboto-Bold';
+    src: url('../../libs/font/Roboto-Bold-webfont.eot');
+    src: url('../../libs/font/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../libs/font/Roboto-Bold-webfont.woff') format('woff'),
+         url('../../libs/font/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../../libs/font/Roboto-Bold-webfont.svg#RobotoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto-Italic';
+    src: url('../../libs/font/Roboto-Italic-webfont.eot');
+    src: url('../../libs/font/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../libs/font/Roboto-Italic-webfont.woff') format('woff'),
+         url('../../libs/font/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('../../libs/font/Roboto-Italic-webfont.svg#RobotoItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'roboto-Regular';
+    src: url('../../libs/font/Roboto-Regular-webfont.eot');
+    src: url('../../libs/font/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../libs/font/Roboto-Regular-webfont.woff') format('woff'),
+         url('../../libs/font/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../../libs/font/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

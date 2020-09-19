@@ -1,0 +1,39 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #section-to-print, #section-to-print * {
+    visibility: visible;
+  }
+  #section-to-print {
+    position: absolute;
+		background-color: white;
+		height: 100%;
+		width: 100%;
+		/* position: fixed; */
+		top: 0;
+		left: 0;
+		margin: 0;
+		padding: 5px;
+		font-size: 14px;
+		line-height: 18px;
+  }
+  #only-on-print{
+  	visibility: visible;
+  }
+  #section-not-to-print, .section-not-to-print {
+  	visibility: hidden;
+  	display:none;
+  }  
+  .dataTables_filter, .dataTables_info, .dataTables_paginate, .dataTables_length { display: none; }
+  table.dataTable thead .sorting::after {content: none;}
+  table.dataTable thead .sorting_asc::after {content: none;}
+  table.dataTable thead .sorting_desc::after {content: none;}
+}
+
+@media screen {
+  #only-on-print{
+  	visibility: hidden;
+  	height:0;
+  }
+}

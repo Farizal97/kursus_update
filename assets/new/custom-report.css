@@ -1,0 +1,76 @@
+/*
+ * Custom css to reset some bootstrap default style
+ * This css are using for reporting
+ */
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Times New Roman", serif;
+    font-size: 13px;
+    margin-top: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 { font-size: 24px }
+h2 { font-size: 22px }
+h3 { font-size: 20px }
+h4 { font-size: 17px }
+h5 { font-size: 15px }
+h6 { font-size: 13px }
+
+hr.line-top {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	margin: 8px 0 10px;
+}
+.line-ttd {
+	margin: 0 auto;
+	width: 70%;
+	border-top: 1px solid #000000;
+}
+
+.text-keuangan {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.clear-both {
+	clear: both;
+}
+.float-left {
+	float: left !important;
+}
+.float-right {
+	float: right !important;
+}
+
+.table,
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border-color: #000000 !important;
+    padding: 3px;
+}
+.table>thead>tr>td,
+.table>thead>tr>th {
+	text-align: center;
+	vertical-align: middle;
+}
+.table-borderless {
+	margin-bottom: 0;
+}
+.table-borderless>tbody>tr>td {
+	border: none;
+	padding: 0 0 2pt;
+}
+.table-keuangan {
+	font-size: 11px;
+}
